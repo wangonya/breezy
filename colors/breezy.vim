@@ -7,11 +7,11 @@ let g:colors_name = 'breezy'
 
 hi Normal        guibg=#232629 guifg=#cfcfc2 gui=NONE          cterm=NONE
 
-hi LineNr        guibg=#31363b guifg=#7a7c7d gui=NONE          cterm=NONE
+hi LineNr        guibg=#232629 guifg=#7a7c7d gui=NONE          cterm=NONE
 hi FoldColumn    guibg=#31363b guifg=#7a7c7d gui=NONE          cterm=NONE
 hi Folded        guibg=#31363b guifg=#7a7c7d gui=NONE          cterm=NONE
 hi MatchParen    guibg=#8e44ad guifg=#cfcfc2 gui=NONE          cterm=NONE
-hi signColumn    guibg=#31363b guifg=#7a7c7d gui=NONE          cterm=NONE
+hi signColumn    guibg=#232629 guifg=#7a7c7d gui=NONE          cterm=NONE
 
 hi Comment        guibg=NONE    guifg=#7a7c7d gui=italic       cterm=italic
 hi Conceal        guibg=NONE    guifg=#cfcfc2 gui=NONE         cterm=NONE
@@ -62,7 +62,10 @@ hi StatusLineNC  guibg=#31363b guifg=#7a7c7d gui=NONE          cterm=NONE
 hi Visual        guibg=#2d5c76 guifg=NONE    gui=NONE          cterm=NONE
 hi VisualNOS     guibg=NONE    guifg=NONE    gui=underline     cterm=underline
 
-hi VertSplit     guibg=#31363b guifg=#31363b gui=NONE          cterm=NONE
+hi VertSplit     guibg=NONE    guifg=#31363b gui=NONE          cterm=NONE
+hi TabLineFill   guibg=#31363b guifg=#31363b gui=NONE          cterm=NONE
+hi TabLineSel    guibg=#31363b guifg=#31363b gui=NONE          cterm=NONE
+hi TabLine       guibg=#31363b guifg=#31363b gui=NONE          cterm=NONE
 hi WildMenu      guibg=NONE    guifg=NONE    gui=NONE          cterm=NONE
 
 hi SpecialKey    guibg=NONE    guifg=#7a7c7d gui=NONE          cterm=NONE

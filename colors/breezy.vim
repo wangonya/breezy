@@ -196,3 +196,9 @@ hi link cIncluded cInclude
 
 hi AleErrorSign   guibg=#31363b guifg=#f67400 gui=NONE          cterm=NONE
 hi AleWarningSign guibg=#31363b guifg=#fdbc4b gui=NONE          cterm=NONE
+
+hi CocGitAddedSign           guibg=NONE guifg=#23cc71 gui=NONE          cterm=NONE
+hi CocGitChangedSign         guibg=NONE guifg=#ca9219 gui=NONE          cterm=NONE
+hi CocGitRemovedSign         guibg=NONE guifg=#4d1f24 gui=NONE          cterm=NONE
+hi CocGitTopRemovedSign      guibg=NONE guifg=#4d1f24 gui=NONE          cterm=NONE
+hi CocGitChangeRemovedSign   guibg=NONE guifg=#4d1f24 gui=NONE          cterm=NONE

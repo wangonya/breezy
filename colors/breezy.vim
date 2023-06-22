@@ -111,33 +111,6 @@ hi link StorageClass   Type
 hi link Structure      Type
 hi link Typedef        Type
 
-" html -----------------------------------------------------------------------
-
-hi link htmlBold    Normal
-hi link htmlItalic  Normal
-hi link htmlTag     PreProc
-hi link htmlEndTag  PreProc
-hi link htmlTagName Operator
-hi link htmlTagN    Operator
-hi link htmlArg     PreProc
-hi link htmlEvent   PreProc
-
-" CSS ------------------------------------------------------------------------
-
-hi link cssClassName  Type
-hi link cssProp Operator
-hi link cssDefinition Operator
-
-" Typescript -----------------------------------------------------------------
-
-hi link typescriptImport PreProc
-hi link typescriptExport PreProc
-hi link typescriptDecorator Type
-hi link typescriptMemberVariableDeclaration Type
-hi link typescriptCall Type
-hi link typescriptTypeReference Normal
-hi link typescriptEndColons Normal
-
 " diff msgs ------------------------------------------------------------------
 
 hi link diffBDiffer   WarningMsg
@@ -149,48 +122,6 @@ hi link diffNoEOL     WarningMsg
 hi link diffOnly      WarningMsg
 hi link diffRemoved   WarningMsg
 hi link diffAdded     String
-
-" markdown -------------------------------------------------------------------
-hi markdownH1         guibg=NONE guifg=#8e44ad gui=bold          cterm=bold
-hi markdownH2         guibg=NONE guifg=#8e44ad gui=bold          cterm=bold
-hi markdownH3         guibg=NONE guifg=#8e44ad gui=bold          cterm=bold
-hi markdownH4         guibg=NONE guifg=#8e44ad gui=bold          cterm=bold
-hi markdownH5         guibg=NONE guifg=#8e44ad gui=bold          cterm=bold
-hi markdownH6         guibg=NONE guifg=#8e44ad gui=bold          cterm=bold
-hi markdownLineBreak  guibg=NONE guifg=#7a7c7d gui=underline     cterm=underline
-hi markdownItalic     guibg=NONE guifg=NONE    gui=italic        cterm=italic
-hi markdownBold       guibg=NONE guifg=NONE    gui=bold          cterm=bold
-hi markdownBoldItalic guibg=NONE guifg=NONE    gui=bold,italic   cterm=bold,italic
-
-hi link markdownHeadingDelimiter  Comment
-hi link markdownLinkText          PreProc
-hi link markdownUrl               PreProc
-hi link markdownCode              Constant
-hi link markdownCodeBlock         Constant
-hi link markdownCodeDelimiter     Comment
-hi link markdownOrderedListMarker Statement
-hi link markdownListMarker        Statement
-hi link markdownBlockquote        Special
-hi link markdownRule              Special
-
-" python ---------------------------------------------------------------------
-hi pythonBuiltin guibg=NONE guifg=#7f8c8d gui=NONE          cterm=NONE
-hi link pythonImport        PreProc
-hi link pythonFunction      Normal
-hi link pythonExceptions    PreProc
-
-" custom:
-hi pythonMagic    guibg=NONE guifg=#8e44ad gui=NONE          cterm=NONE
-hi link pythonDef            Operator
-hi link pythonDocstring      Comment
-hi link pythonSpecial        Boolean
-hi link pythonDecorator      Type
-hi link pythonAs             PreProc
-
-" c / cpp --------------------------------------------------------------------
-
-hi link cppStatement Operator
-hi link cIncluded cInclude
 
 " PLUGINS --------------------------------------------------------------------
 
